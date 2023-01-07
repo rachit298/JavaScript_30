@@ -1,0 +1,40 @@
+:root {
+  --base-color: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #193549;
+  color: white;
+  text-align: center;
+}
+#container {
+  margin-bottom: 5rem;
+}
+#edit-head-text {
+  color: var(--base-color);
+}
+#space-div,
+#blur-div,
+#color-div {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1rem;
+  font-size: large;
+}
+input {
+  margin-left: 2rem;
+}
+img {
+  margin-top: 1rem;
+  padding: var(--spacing);
+  background: var(--base-color);
+  filter: blur(var(--blur));
+}

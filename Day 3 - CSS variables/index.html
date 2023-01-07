@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css variables</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h2 id="heading">
+      Update CSS Variables with
+      <span id="edit-head-text">JS</span>
+    </h2>
+    <div id="container">
+      <div id="space-div">
+        <label for="spacing">Spacing:</label>
+        <input
+          type="range"
+          name="spacing"
+          value="10"
+          min="10"
+          max="200"
+          data-sizing="px"
+        />
+      </div>
+      <div id="blur-div">
+        <label for="blur">Blur:</label>
+        <input
+          type="range"
+          name="blur"
+          value="10"
+          min="0"
+          max="25"
+          data-sizing="px"
+        />
+      </div>
+      <div id="color-div">
+        <label for="base-color">Base color:</label>
+        <input type="color" name="base-color" value="#ffc600" />
+      </div>
+
+      <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500" />
+    </div>
+    <script src="./cssVariables.js"></script>
+  </body>
+</html>
