@@ -1,0 +1,31 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: url("https://source.unsplash.com/nDqA4d5NL0k/2000x2000");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.bands {
+  list-style: inside;
+  background-color: white;
+  width: 500px;
+  font-size: 2rem;
+  padding: 0;
+}
+
+.bands li {
+  border-bottom: 1px solid #efefef;
+  padding: 15px;
+}
+
+.bands li:last-child {
+  border-bottom: none;
+}
