@@ -1,0 +1,26 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.videos {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  border-bottom: 1px solid #efefef;
+  padding: 20px;
+}
+
+.videos li:last-child {
+  border-bottom: none;
+}
